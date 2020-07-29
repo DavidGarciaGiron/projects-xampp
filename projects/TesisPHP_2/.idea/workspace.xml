@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98638c25-5fa4-4f09-91b1-696f06f9a2e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/view/page/change_password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/php_code/recuperar.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/php_code/recuperar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/page/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/page/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/page/recuperar.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/page/recuperar.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YamqQ7ohiCBEoOHGYAU7p3BITk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\projects\TesisV2-PHP\controller\js" />
+      <recent name="C:\xampp\htdocs\projects\TesisV2-PHP\controller\database" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98638c25-5fa4-4f09-91b1-696f06f9a2e1" name="Default Changelist" comment="" />
+      <created>1583152436507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583152436507</updated>
+      <workItem from="1583152441906" duration="1312000" />
+      <workItem from="1583157560413" duration="1788000" />
+      <workItem from="1583189281545" duration="481000" />
+      <workItem from="1583190328702" duration="16720000" />
+      <workItem from="1583560100690" duration="19191000" />
+      <workItem from="1584133319966" duration="4903000" />
+      <workItem from="1585286646517" duration="321000" />
+      <workItem from="1586036369726" duration="3434000" />
+      <workItem from="1586556824293" duration="5170000" />
+      <workItem from="1586742192410" duration="7900000" />
+      <workItem from="1586824058906" duration="6638000" />
+      <workItem from="1587405774719" duration="12408000" />
+      <workItem from="1587932462687" duration="1698000" />
+      <workItem from="1587934222505" duration="1858000" />
+      <workItem from="1587936239080" duration="1767000" />
+      <workItem from="1587938056814" duration="1774000" />
+      <workItem from="1587939878229" duration="1945000" />
+      <workItem from="1587941867543" duration="621000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="507" y="224" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587934744394">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="507" y="224" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1587934744394" />
+    <state x="713" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1583720673682" />
+    <state x="491" y="190" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587942121526">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="491" y="190" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1587942121526" />
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583365960371" />
+    <state x="110" y="120" width="1146" height="498" key="DiffContextDialog" timestamp="1587408403114">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="110" y="120" width="1146" height="498" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1587408403114" />
+    <state x="517" y="293" key="NewPhpFileDialog" timestamp="1587408770775">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="517" y="293" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1587408770775" />
+    <state x="329" y="22" key="SettingsEditor" timestamp="1587934612890">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="329" y="22" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1587934612890" />
+    <state x="463" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1583189767103" />
+    <state x="530" y="281" key="VCS.ChangelistChooser" timestamp="1587408382729">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="530" y="281" key="VCS.ChangelistChooser/0.0.1366.738@0.0.1366.738" timestamp="1587408382729" />
+    <state x="475" y="247" key="com.intellij.ide.util.TipDialog" timestamp="1587941866780">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="475" y="247" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1587941866780" />
+    <state x="668" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584133367883" />
+    <state x="438" y="172" key="run.anything.popup" timestamp="1586832267453">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="438" y="172" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1586832267453" />
+    <state x="616" y="245" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1583511380987" />
+  </component>
+</project>

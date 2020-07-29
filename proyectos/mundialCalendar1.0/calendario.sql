@@ -1,0 +1,139 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+CREATE TABLE `encuentros` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `pais1` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `pais2` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `estadio` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `grupo` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `fecha` date NOT NULL,
+  `hora` time NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT INTO `encuentros` (`id`, `created_at`, `updated_at`, `pais1`, `pais2`, `estadio`, `grupo`, `fecha`, `hora`) VALUES
+(2, '2018-06-16 09:26:08', '2018-06-16 09:26:08', 'RUSIA', 'ARABIA S.', 'MOSCU', 'Grupo A', '2018-06-14', '10:00:00'),
+(3, '2018-06-16 09:28:41', '2018-06-16 09:28:41', 'URUGUAY', 'EGIPTO', 'EKATERINBURGO', 'Grupo A', '2018-06-15', '07:00:00'),
+(4, '2018-06-16 09:32:42', '2018-06-16 09:32:42', 'MARRUECOS', 'IRÁN', 'SAN PERTERSBURGO', 'Grupo B', '2018-06-15', '10:00:00'),
+(5, '2018-06-16 09:34:06', '2018-06-16 09:34:06', 'PORTUGAL', 'ESPAÑA', 'SOSHI', 'Grupo B', '2018-06-15', '13:00:00'),
+(6, '2018-06-16 09:37:32', '2018-06-16 09:37:32', 'FRANCIA', 'AUSTRALIA', 'KAZÁN', 'Grupo C', '2018-06-16', '05:00:00'),
+(7, '2018-06-16 09:39:25', '2018-06-16 09:39:25', 'ARGENTINA', 'ISLANDIA', 'MOSCU', 'Grupo D', '2018-06-16', '08:00:00'),
+(8, '2018-06-16 09:40:06', '2018-06-16 09:40:06', 'PERU', 'DINAMARCA', 'SARANSK', 'Grupo C', '2018-06-16', '11:00:00'),
+(9, '2018-06-16 09:40:58', '2018-06-16 09:40:58', 'CROASIA', 'NIGERIA', 'KALININGRADO', 'Grupo C', '2018-06-16', '14:00:00'),
+(10, '2018-06-16 09:41:32', '2018-06-16 09:51:45', 'COSTA RICA', 'SERVIA', 'SAMARA', 'Grupo E', '2018-06-17', '07:00:00'),
+(11, '2018-06-16 09:42:09', '2018-06-16 09:42:09', 'ALEMANIA', 'MEXICO', 'MOSCU', 'Grupo F', '2018-06-17', '10:00:00'),
+(12, '2018-06-16 09:42:48', '2018-06-16 09:42:48', 'BRASIL', 'SUIZA', 'ROSTOV', 'Grupo E', '2018-06-17', '13:00:00'),
+(13, '2018-06-16 09:44:08', '2018-06-16 09:44:08', 'SUESIA', 'COREA', 'NICHNI', 'Grupo F', '2018-06-18', '07:00:00'),
+(14, '2018-06-16 09:44:56', '2018-06-16 09:44:56', 'VELGICA', 'PANAMA', 'SOSHI', 'Grupo G', '2018-06-18', '10:00:00'),
+(15, '2018-06-16 09:45:37', '2018-06-16 09:45:37', 'TUNEZ', 'INGLATERRA', 'VOLGOGRADO', 'Grupo G', '2018-06-18', '13:00:00'),
+(16, '2018-06-16 09:46:35', '2018-06-16 09:46:35', 'COLOMBIA', 'JAPON', 'SARANKS', 'Grupo H', '2018-06-19', '07:00:00'),
+(17, '2018-06-16 09:47:32', '2018-06-16 09:47:32', 'POLONIA', 'SENEGAL', 'MOSCU', 'Grupo H', '2018-06-19', '10:00:00'),
+(18, '2018-06-16 09:48:09', '2018-06-16 09:48:09', 'RUSIA', 'EGIPTO', 'SAN PERTERSBURGO', 'Grupo A', '2018-06-19', '13:00:00'),
+(19, '2018-06-16 09:48:39', '2018-06-16 09:48:39', 'PORTUGAL', 'MARRUECOS', 'MOSCU', 'Grupo B', '2018-06-20', '07:00:00'),
+(20, '2018-06-16 09:49:15', '2018-06-16 09:49:15', 'URUGUAY', 'ARABIA S.', 'ROSTOV', 'Grupo A', '2018-06-20', '10:00:00'),
+(21, '2018-06-16 09:50:30', '2018-06-16 09:50:30', 'ESPAÑA', 'IRAN', 'KAZÁN', 'Grupo B', '2018-06-20', '13:00:00'),
+(22, '2018-06-16 09:51:03', '2018-06-16 09:51:03', 'DINAMARCA', 'AUSTRALIA', 'SAMARA', 'Grupo C', '2018-06-21', '07:00:00'),
+(23, '2018-06-16 09:52:59', '2018-06-16 09:52:59', 'FRANCIA', 'PERU', 'EKATERINBURGO', 'Grupo C', '2018-06-21', '10:00:00'),
+(24, '2018-06-16 09:53:54', '2018-06-16 09:53:54', 'ARGENTINA', 'CROASIA', 'NICHNI', 'Grupo B', '2018-06-21', '13:00:00'),
+(25, '2018-06-16 09:54:22', '2018-06-16 09:54:22', 'BRASIL', 'COSTA RICA', 'SAN PERTERSBURGO', 'Grupo E', '2018-06-22', '07:00:00'),
+(26, '2018-06-16 09:54:59', '2018-06-16 09:54:59', 'NIGERIA', 'ISLANDIA', 'VOLGOGRADO', 'Grupo D', '2018-06-22', '10:00:00'),
+(27, '2018-06-16 09:55:55', '2018-06-16 09:55:55', 'SERVIA', 'SUIZA', 'KALININGRADO', 'Grupo E', '2018-06-22', '13:00:00'),
+(28, '2018-06-16 09:56:34', '2018-06-16 09:56:34', 'VELGICA', 'TUNEZ', 'MOSCU', 'Grurpo G', '2018-06-23', '07:00:00'),
+(29, '2018-06-16 09:57:00', '2018-06-16 09:57:00', 'MEXICO', 'KOREA', 'ROSTOV', 'Grupo F', '2018-06-23', '10:00:00'),
+(30, '2018-06-16 09:57:38', '2018-06-16 09:57:38', 'ALEMANIA', 'SUESIA', 'SOSHI', 'Grupo F', '2018-06-23', '13:00:00'),
+(31, '2018-06-16 09:58:13', '2018-06-16 09:58:13', 'INGLATERRA', 'PANAMA', 'NICHNI', 'Grupo G', '2018-06-24', '07:00:00'),
+(32, '2018-06-16 09:58:59', '2018-06-16 09:58:59', 'JAPON', 'SENEGAL', 'EKATERINBURGO', 'Grupo H', '2018-06-24', '10:00:00'),
+(33, '2018-06-16 09:59:29', '2018-06-16 09:59:29', 'COLOMBIA', 'POLONIA', 'KAZAN', 'Grupo H', '2018-06-24', '13:00:00'),
+(34, '2018-06-16 10:00:01', '2018-06-16 10:00:01', 'URUGUAY', 'RUSIA', 'SAMARA', 'GRUPO A', '2018-06-25', '09:00:00'),
+(35, '2018-06-16 10:00:32', '2018-06-16 10:00:32', 'EGIPTO', 'ARABIA S.', 'VOLGOGRADO', 'Grupo A', '2018-06-25', '09:00:00'),
+(36, '2018-06-16 10:01:01', '2018-06-16 10:01:01', 'PORTUGAL', 'IRAN', 'SARANKS', 'Grupo B', '2018-06-25', '13:00:00'),
+(37, '2018-06-16 10:01:33', '2018-06-16 10:01:33', 'ESPAÑA', 'MARRUECOS', 'KALININGRADO', 'GRUPO', '2018-06-25', '13:00:00'),
+(38, '2018-06-16 10:02:01', '2018-06-16 10:02:01', 'DINAMARCA', 'FRANCIA', 'MOSCU', 'Grupo C', '2018-06-26', '09:00:00'),
+(39, '2018-06-16 10:02:32', '2018-06-16 10:02:32', 'PERU', 'AUSTRALIA', 'SOSHI', 'Grupo C', '2018-06-26', '09:00:00'),
+(40, '2018-06-16 10:03:01', '2018-06-16 10:03:01', 'ARGENTINA', 'NIGERIA', 'SAN PERTERSBURGO', 'Grupo B', '2018-06-26', '13:00:00'),
+(41, '2018-06-16 10:03:35', '2018-06-16 10:03:35', 'CROASIA', 'ISLANDIA', 'ROSTOV', 'Grupo D', '2018-06-26', '13:00:00'),
+(42, '2018-06-16 10:04:01', '2018-06-16 10:04:01', 'KOREA', 'ALEMANIA', 'KAZÁN', 'Grupo F', '2018-06-27', '09:00:00'),
+(43, '2018-06-16 10:04:50', '2018-06-16 10:04:50', 'MEXICO', 'SUESIA', 'EKATERINBURGO', 'Grupo F', '2018-06-27', '09:00:00'),
+(44, '2018-06-16 10:05:19', '2018-06-16 10:05:19', 'BRASIL', 'SERVIA', 'MOSCU', 'Grupo E', '2018-06-27', '13:00:00'),
+(45, '2018-06-16 10:06:03', '2018-06-16 10:06:03', 'SUIZA', 'COSTA RICA', 'NICHNI', 'Grupo E', '2018-06-27', '13:00:00'),
+(46, '2018-06-16 10:06:38', '2018-06-16 10:06:38', 'POLONIA', 'JAPON', 'VOLGOGRADO', 'Grupo H', '2018-06-28', '09:00:00'),
+(47, '2018-06-16 10:07:07', '2018-06-16 10:07:07', 'COLOMBIA', 'SENEGAL', 'SAMARA', 'Grupo H', '2018-06-28', '09:00:00'),
+(48, '2018-06-16 10:07:46', '2018-06-16 10:07:46', 'INGLATERRA', 'BELGICA', 'KALININGRADO', 'Grupo G', '2018-06-28', '13:00:00'),
+(49, '2018-06-16 10:08:37', '2018-06-16 10:08:37', 'PANAMA', 'TUNEZ', 'SARANKS', 'Grupo G', '2018-06-28', '13:00:00'),
+(50, '2018-06-16 10:09:22', '2018-06-16 10:09:22', '1C', '2D', 'KAZÁN', '-', '2018-06-30', '09:00:00'),
+(51, '2018-06-16 10:09:45', '2018-06-16 10:09:45', '1A', '2B', 'SOSHI', '-', '2018-06-30', '13:00:00'),
+(52, '2018-06-16 10:10:09', '2018-06-16 10:10:09', '2A', '1B', 'MOSCU', '-', '2018-07-01', '09:00:00'),
+(53, '2018-06-16 10:10:31', '2018-06-16 10:10:31', '2C', '1D', 'NICHNI', '-', '2018-07-01', '13:00:00'),
+(54, '2018-06-16 10:11:03', '2018-06-16 10:11:03', '1E', '2F', 'SAMARA', '-', '2018-07-02', '09:00:00'),
+(55, '2018-06-16 10:11:27', '2018-06-16 10:11:27', '1G', '2H', 'ROSTOV', '-', '2018-07-02', '13:00:00'),
+(56, '2018-06-16 10:11:55', '2018-06-16 10:11:55', '2E', '1F', 'SAN PERTERSBURGO', '-', '2018-07-03', '09:00:00'),
+(57, '2018-06-16 10:12:13', '2018-06-16 10:12:13', '2G', '1H', 'MOSCU', '-', '2018-06-03', '13:00:00'),
+(58, '2018-06-16 10:12:50', '2018-06-16 10:12:50', '5QF', '6QF', 'KAZÁN', '-', '2018-07-06', '13:00:00'),
+(59, '2018-06-16 10:13:39', '2018-06-16 10:13:39', '7QF', '8QF', 'SAMARA', '-', '2018-07-07', '09:00:00'),
+(60, '2018-06-16 10:14:08', '2018-06-16 10:14:08', '3QF', '4QF', 'SOSHI', '-', '2018-07-07', '13:00:00'),
+(61, '2018-06-16 10:14:41', '2018-06-16 10:14:41', '1SF', '2SF', 'SAN PERTERSBURGO', '-', '2018-07-10', '13:00:00'),
+(62, '2018-06-16 10:15:02', '2018-06-16 10:15:02', '3SF', '4SF', 'MOSCU', '-', '2018-07-11', '13:00:00'),
+(63, '2018-06-16 10:15:32', '2018-06-16 10:15:32', '1P', '2P', 'SAN PERTERSBURGO', '-', '2018-06-14', '09:00:00'),
+(64, '2018-06-16 10:15:54', '2018-06-16 10:15:54', '1F', '2F', 'MOSCU', '-', '2018-07-15', '10:00:00');
+
+
+
+CREATE TABLE `migrations` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `migration` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `batch` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+
+INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
+(1, '2014_10_12_000000_create_users_table', 1),
+(2, '2014_10_12_100000_create_password_resets_table', 1),
+(3, '2018_06_15_015628_create_encuentros_table', 1);
+
+
+CREATE TABLE `password_resets` (
+  `email` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `token` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+
+CREATE TABLE `users` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `password` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+ALTER TABLE `encuentros`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `migrations`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `password_resets`
+  ADD KEY `password_resets_email_index` (`email`);
+
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `users_email_unique` (`email`);
+
+ALTER TABLE `encuentros`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
+
+ALTER TABLE `migrations`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+ALTER TABLE `users`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+COMMIT;
